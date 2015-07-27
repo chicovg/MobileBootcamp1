@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C3859CC1B66F560001E4394 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C3859CB1B66F560001E4394 /* Media.xcassets */; };
 		7CDEC6761B4F5941003AFA29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDEC6751B4F5941003AFA29 /* main.m */; };
 		7CDEC6791B4F5941003AFA29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDEC6781B4F5941003AFA29 /* AppDelegate.m */; };
 		7CDEC67C1B4F5941003AFA29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDEC67B1B4F5941003AFA29 /* ViewController.m */; };
 		7CDEC67F1B4F5941003AFA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEC67D1B4F5941003AFA29 /* Main.storyboard */; };
-		7CDEC6811B4F5941003AFA29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEC6801B4F5941003AFA29 /* Images.xcassets */; };
 		7CDEC6841B4F5941003AFA29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEC6821B4F5941003AFA29 /* LaunchScreen.xib */; };
 		7CDEC6901B4F5941003AFA29 /* MobileBootcamp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDEC68F1B4F5941003AFA29 /* MobileBootcamp1Tests.m */; };
 		7CFF47F31B5DAE9200A110C4 /* AppHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFF47F21B5DAE9200A110C4 /* AppHistoryViewController.m */; };
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C3859CB1B66F560001E4394 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		7CDEC6701B4F5941003AFA29 /* MobileBootcamp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileBootcamp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDEC6741B4F5941003AFA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CDEC6751B4F5941003AFA29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		7CDEC67A1B4F5941003AFA29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7CDEC67B1B4F5941003AFA29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7CDEC67E1B4F5941003AFA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CDEC6801B4F5941003AFA29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CDEC6831B4F5941003AFA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7CDEC6891B4F5941003AFA29 /* MobileBootcamp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileBootcamp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDEC68E1B4F5941003AFA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 				7CFF47F11B5DAE9200A110C4 /* AppHistoryViewController.h */,
 				7CFF47F21B5DAE9200A110C4 /* AppHistoryViewController.m */,
 				7CDEC67D1B4F5941003AFA29 /* Main.storyboard */,
-				7CDEC6801B4F5941003AFA29 /* Images.xcassets */,
+				7C3859CB1B66F560001E4394 /* Media.xcassets */,
 				7CDEC6821B4F5941003AFA29 /* LaunchScreen.xib */,
 				7CDEC6731B4F5941003AFA29 /* Supporting Files */,
 				7CFF47F61B5DCCF100A110C4 /* Constants.h */,
@@ -211,7 +211,7 @@
 			files = (
 				7CDEC67F1B4F5941003AFA29 /* Main.storyboard in Resources */,
 				7CDEC6841B4F5941003AFA29 /* LaunchScreen.xib in Resources */,
-				7CDEC6811B4F5941003AFA29 /* Images.xcassets in Resources */,
+				7C3859CC1B66F560001E4394 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
