@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Constants.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    NSMutableArray *appHistArray = [defaults mutableArrayValueForKey:APP_HISTORY_KEY];
+    if(nil == appHistArray) {
+        appHistArray = [[NSMutableArray alloc] init];
+    }
+    [appHistArray addObject:[[NSDate alloc] init]];
+    [defaults setObject:[[NSArray alloc] initWithArray:appHistArray] forKey:APP_HISTORY_KEY];
+    [defaults synchronize];
 }
 
 - (void)didReceiveMemoryWarning {

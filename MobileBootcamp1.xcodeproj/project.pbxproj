@@ -14,6 +14,8 @@
 		7CDEC6811B4F5941003AFA29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEC6801B4F5941003AFA29 /* Images.xcassets */; };
 		7CDEC6841B4F5941003AFA29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDEC6821B4F5941003AFA29 /* LaunchScreen.xib */; };
 		7CDEC6901B4F5941003AFA29 /* MobileBootcamp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDEC68F1B4F5941003AFA29 /* MobileBootcamp1Tests.m */; };
+		7CFF47F31B5DAE9200A110C4 /* AppHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFF47F21B5DAE9200A110C4 /* AppHistoryViewController.m */; };
+		7CFF47F81B5DCD5000A110C4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFF47F71B5DCD5000A110C4 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		7CDEC6891B4F5941003AFA29 /* MobileBootcamp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileBootcamp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDEC68E1B4F5941003AFA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CDEC68F1B4F5941003AFA29 /* MobileBootcamp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBootcamp1Tests.m; sourceTree = "<group>"; };
+		7CFF47F11B5DAE9200A110C4 /* AppHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHistoryViewController.h; sourceTree = "<group>"; };
+		7CFF47F21B5DAE9200A110C4 /* AppHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHistoryViewController.m; sourceTree = "<group>"; };
+		7CFF47F61B5DCCF100A110C4 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7CFF47F71B5DCD5000A110C4 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +91,14 @@
 				7CDEC6781B4F5941003AFA29 /* AppDelegate.m */,
 				7CDEC67A1B4F5941003AFA29 /* ViewController.h */,
 				7CDEC67B1B4F5941003AFA29 /* ViewController.m */,
+				7CFF47F11B5DAE9200A110C4 /* AppHistoryViewController.h */,
+				7CFF47F21B5DAE9200A110C4 /* AppHistoryViewController.m */,
 				7CDEC67D1B4F5941003AFA29 /* Main.storyboard */,
 				7CDEC6801B4F5941003AFA29 /* Images.xcassets */,
 				7CDEC6821B4F5941003AFA29 /* LaunchScreen.xib */,
 				7CDEC6731B4F5941003AFA29 /* Supporting Files */,
+				7CFF47F61B5DCCF100A110C4 /* Constants.h */,
+				7CFF47F71B5DCD5000A110C4 /* Constants.m */,
 			);
 			path = MobileBootcamp1;
 			sourceTree = "<group>";
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFF47F81B5DCD5000A110C4 /* Constants.m in Sources */,
 				7CDEC67C1B4F5941003AFA29 /* ViewController.m in Sources */,
 				7CDEC6791B4F5941003AFA29 /* AppDelegate.m in Sources */,
 				7CDEC6761B4F5941003AFA29 /* main.m in Sources */,
+				7CFF47F31B5DAE9200A110C4 /* AppHistoryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				7CDEC6951B4F5941003AFA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CDEC6961B4F5941003AFA29 /* Build configuration list for PBXNativeTarget "MobileBootcamp1Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				7CDEC6981B4F5941003AFA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
